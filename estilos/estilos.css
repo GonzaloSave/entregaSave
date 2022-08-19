@@ -74,18 +74,6 @@ body {
  
 }
 
-.envoltura{
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "subtitulo1"
-    "subtitulo2"
-    "imagenindex"
-    "iframe"
-    "footer"
-}
-
 header {
     background-color: #ffee5f;
     padding: 2rem;
@@ -113,12 +101,6 @@ a {
 
 .subtituloGrafico {
     color: rgb(0, 0, 0);
-    grid-area: subtitulo1;
-}
-
-.subtituloDesarrolloweb
-{
-    grid-area: subtitulo2;
 }
 
 h2 {
@@ -174,21 +156,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-
-@media(min-width: 768px)
-{
-.envoltura{
-    margin: 0;
-    display: grid;
-    grid-template-areas: 
-    "header header"
-    "main main"
-    "subtitulo1 subtitulo2"
-    "imagenindex iframe"
-    "footer footer";
-    grid-template-columns: 1fr 1fr;
-}
 }
 
 .galeria{
