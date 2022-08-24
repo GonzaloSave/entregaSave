@@ -1,0 +1,93 @@
+@import "nesting";
+@import "fuentes";
+@import "generales";
+@import "animaciones";
+
+h1 {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: light;
+    font-size: 8rem;
+    padding: 2rem;
+    margin: 2rem 1rem 2rem 2rem;
+    grid-area: titulo;
+}
+  
+main {
+    grid-area: main;
+}
+
+
+
+header {
+    background-color: #ffee5f;
+    padding: 2rem;
+    margin-top: 0;
+    grid-area: header;
+}
+
+.subtituloGrafico {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: medium;
+    text-align: left;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    padding: 2rem;
+    margin: 2rem;
+
+}
+
+img {
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.imagenindex
+{grid-area: imagenindex;
+
+}
+
+iframe {
+    padding: 2rem;
+    margin: 2rem;
+    grid-area: iframe;
+}
+
+.formularios {
+    padding: 5rem;
+    margin-top: 5rem;
+}
+
+
+footer {
+    background-color: #ffee5f;
+    margin-top: 10rem;
+    grid-area: footer;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    margin: 3rem;
+}
